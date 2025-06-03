@@ -1,6 +1,9 @@
 spring:
   application:
     name: greeter-messages
+  cloud:
+    services:
+      registrationMethod: direct
 
 management:
   endpoints:
