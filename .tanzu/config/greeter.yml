@@ -9,7 +9,7 @@ spec:
     path: ../..
     nonSecretEnv:
       - name: BP_JVM_VERSION
-        value: "17"
+        value: "21"
       - name: BP_GRADLE_BUILD_ARGUMENTS
         value: --no-daemon clean bootJar
       - name: BP_GRADLE_BUILT_MODULE

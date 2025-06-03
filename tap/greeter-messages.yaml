@@ -12,7 +12,7 @@ spec:
   build:
     env:
       - name: BP_JVM_VERSION
-        value: "17"
+        value: "21"
       - name: BP_GRADLE_BUILT_MODULE
         value: "greeter-messages"
       - name: BP_GRADLE_BUILD_ARGUMENTS
